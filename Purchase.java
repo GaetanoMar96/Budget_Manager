@@ -3,9 +3,9 @@ package budget;
 
 public class Purchase {
 
-    String name;
-    float price;
-    String category;
+    private String name;
+    private float price;
+    private String category;
 
     public Purchase(String name, float price, String category) {
         this.name = name;
